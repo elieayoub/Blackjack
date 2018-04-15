@@ -1,4 +1,4 @@
-# Basic Bootstrap Template
+# Blackjack Game
 
 This is a Blackjack card game developed using PHP language.
 
