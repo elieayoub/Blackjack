@@ -1,0 +1,44 @@
+body { padding: 0; margin: 5; }
+
+fieldset { border:0 !important; }
+
+.hide { display: none; }
+
+.show { display: block; }
+
+#gameCardsTable {
+	text-align: center;
+	background-color: #CCC;
+	padding-bottom: 5px;
+}
+
+.img-card {
+	width: 100px;
+	height: 145px;
+}
+
+.card-blocked {
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(../images/blocked.png) no-repeat center;
+  width: 100px;
+  height: 145px;
+  padding-left: 100px;
+}
+
+.winner-notification {
+	position: absolute;
+	width: 100%;
+	height: 55px;
+	top: 0;
+	left: 0;
+	background-color: #FFFFFF;
+	color: #FF0000;
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.newPlayerCards, .newDealerCards {
+	display: inline-block;
+}
